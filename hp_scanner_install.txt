@@ -1,0 +1,14 @@
+
+
+
+
+sudo apt-get install hplip
+sudo apt install snmp
+sudo apt-get install hplip-gui
+sudo chmod 777 hplip-3.18.12-plugin.run
+./hplip-3.18.12-plugin.run
+sudo hp-setup
+hp-plugin
+
+scanimage -L # to find printer url
+scanimage -d "hpaio:/net/hp_laserjet_pro_mfp_m26nw?ip=192.168.1.100" --format png > image.png
