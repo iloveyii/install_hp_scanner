@@ -26,7 +26,7 @@ This repo has instructions on how to install the required packages/plugins on Ub
 
    * You many need to install the following.
    
-`
+```
    sudo apt-get install hplip
    sudo apt install snmp
    sudo apt-get install hplip-gui
@@ -34,4 +34,4 @@ This repo has instructions on how to install the required packages/plugins on Ub
    ./hplip-3.18.12-plugin.run
    sudo hp-setup
    hp-plugin
-`
+```
