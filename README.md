@@ -19,6 +19,7 @@ This repo has instructions on how to install the required packages/plugins on Ub
   
   * To scan the document in color mode use : `scan_image_to_png fileName.png color`
   * To scan the document in black and white mode use : `scan_image_to_png fileName.png`
+  * You may want to convert all images to pdf : `convert *.png all.pdf`
   
   It will save the scanned image in the current directory.
   
@@ -35,3 +36,8 @@ This repo has instructions on how to install the required packages/plugins on Ub
    sudo hp-setup
    hp-plugin
 ```
+
+
+### Links
+* [Convert error](https://stackoverflow.com/questions/42928765/convertnot-authorized-aaaa-error-constitute-c-readimage-453)
+* [Download hp plugin latest](https://developers.hp.com/hp-linux-imaging-and-printing/plugins)
