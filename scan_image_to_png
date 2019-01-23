@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ "$1" = "" ] ; then
+    echo "Usage: scan_image_to_png filename.png color"
+    exit 1
+fi
+
+if [ "$2" = "color" ] ; then
+    scanimage -d "hpaio:/net/hp_laserjet_pro_mfp_m26nw?ip=192.168.1.100" --mode Color --resolution 300 --format tiff | convert - -resize 50% -quality 75 "$1"
+    exit 0
+fi
+
+scanimage -d "hpaio:/net/hp_laserjet_pro_mfp_m26nw?ip=192.168.1.100" --resolution 300 --format tiff | convert - -resize 50% -quality 75 "$1"
