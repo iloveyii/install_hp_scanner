@@ -7,7 +7,7 @@ This repo has instructions on how to install the required packages/plugins on Ub
 
 
 
-## Installations
+### Installations
 
   * Clone the repository: `git clone https://github.com/iloveyii/install_hp_scanner`.
   * Find the URI to the network printer: `scanimage -L `  and adjust this in the script.
