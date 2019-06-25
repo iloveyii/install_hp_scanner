@@ -4,7 +4,8 @@ Install HP Printer utilities on Ubuntu
 This repo has instructions on how to install the required packages/plugins on Ubuntu to be able to scan from Ubuntu command line.
 
 ![Image](https://asset.conrad.com/media10/isa/160267/c1/-/sv/1500104_ZB_04_FB/image.jpg)
-![Screenshot](https://asset.conrad.com/media10/isa/160267/c1/-/sv/1500104_ZB_04_FB/image.jpg)
+
+![Screenshot](https://raw.githubusercontent.com/iloveyii/install_hp_scanner/master/screenshot.png)
 
 
 
