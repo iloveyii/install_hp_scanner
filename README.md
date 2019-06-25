@@ -20,6 +20,7 @@ This repo has instructions on how to install the required packages/plugins on Ub
   * To scan the document in color mode use : `scan_image_to_png fileName.png color`
   * To scan the document in black and white mode use : `scan_image_to_png fileName.png`
   * You may want to convert all images to pdf : `convert *.png all.pdf`
+  * If trouble of permissions in the above command use: `sudo mv /etc/ImageMagick-6/policy.xml /etc/ImageMagick-6/policy.xmlout`
   
   It will save the scanned image in the current directory.
   
