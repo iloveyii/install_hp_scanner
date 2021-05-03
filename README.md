@@ -12,7 +12,7 @@ This repo has instructions on how to install the required packages/plugins on Ub
 ### Installations
 
   * Clone the repository: `git clone https://github.com/iloveyii/install_hp_scanner`.
-  * Find the URI to the network printer: `scanimage -L `  and adjust this in the script.
+  * Find the URI to the network printer: `scanimage -L `  and adjust this in the script. Try to print a document and the result may change but actually works!!!
   * Make the script executable `sudo chmod 777 scan_image_to_png`.
   * Move it to bin `sudo mv scan_image_to_png /usr/local/bin/`.
   
